@@ -1,0 +1,51 @@
+/* sets webpage preferences (setting bg colour to the main colour) */
+body, header, footer {
+    background-color:#aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* image style for the starfish header image */
+.header-img {
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 10;
+    position: relative;
+    display: inline-block;
+}
+/* centers the "lone starfish" text on the header image, also stylizes the text */
+.head-one {
+    position: absolute;
+    top: 225px;
+    right: 425px;
+    display: inline-block;
+    z-index: 11;
+    font-size: 68px;
+    font-weight: lighter;
+    color: #eee;
+    box-sizing: border-box;
+}
+
+/* sets the nav bar styles */
+.nav-link {
+    border: 4px #082563; 
+    font-weight: bolder;
+    list-style: none;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 20pt;
+}
+/* sets style format for lone starfish img, adds text wrap to the paragraph text around the image */
+.lone-star {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 12px 8px;
+    margin: 9px 12px;
+    box-sizing: border-box;
+}
+
+.para-one {
+    font-size: 19px;
+}
