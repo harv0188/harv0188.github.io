@@ -15,8 +15,8 @@ body, header, footer {
 /* centers the "lone starfish" text on the header image, also stylizes the text */
 .head-one {
     position: absolute;
-    top: 225px;
-    right: 425px;
+    top: 260px  ;
+    right: 550px;
     display: inline-block;
     z-index: 11;
     font-size: 68px;
